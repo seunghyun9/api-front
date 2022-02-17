@@ -1,7 +1,8 @@
 import React from "react";
-const Hello =()=>{
-    return<><h1>
+import Layout from "../containers/Layout";
+export default function Hello(){
+    return<Layout><h1>
         반갑다 리액트야!!
-        </h1></>
-}
-export default Hello
+        </h1>
+        </Layout>
+};

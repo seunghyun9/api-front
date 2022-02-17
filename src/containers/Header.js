@@ -1,8 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
-const Header = () => {
+export default function Header(){
     return (<>
     <Navbar/>
     </>)
-}
-export default Header;
+};

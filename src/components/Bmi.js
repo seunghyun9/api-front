@@ -1,6 +1,8 @@
 import React from "react";
-const Bmi = ()=>{
-    return<><h1>BMI</h1>
+import Layout from "../containers/Layout";
+
+export default function Bmi(){
+    return(<Layout><h1>BMI</h1>
     <form>
     <div>
     <label><b>이름</b></label><br></br>
@@ -14,7 +16,5 @@ const Bmi = ()=>{
     <button>입력완료</button>
     </div>
     </form>   
-    
-    </>
+     </Layout>)
 }
-export default Bmi
